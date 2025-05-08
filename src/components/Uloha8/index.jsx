@@ -6,7 +6,7 @@ Zadání 3: Po kliknutí na tlačítko změň `možná` na `ano`, `ano` na `ne`,
 */
 
 export const Uloha8 = () => {
-  const [prsi, setPrsi] = useState(0);
+  const [prsi, setPrsi] = useState(2);
   const stav = ['Ano', 'Ne', 'Možná'];
   const zmenaStavu = () => (prsi === 2 ? setPrsi(0) : setPrsi(prsi + 1));
 
